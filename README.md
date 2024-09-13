@@ -13,24 +13,23 @@ Some minor tuning of the "connect-delay" parameter may be necessary, depending o
 For easy reference, these are the options:
 
 options:
-  -h, --help
-			show this help message and exit
-  --vendor-id VENDOR_ID
-                        Hexadecimal Vendor ID of the device
-  --product-id PRODUCT_ID
-                        Hexadecimal Product ID of the device
-  --connect-delay CONNECT_DELAY
-                        Delay in seconds before setting Voicemeeter output after connection
-  --bus-index BUS_INDEX
-                        The bus index to use in Voicemeeter
-  --device-name DEVICE_NAME
-                        The name of the device as recognized by Voicemeeter (Name from --list-
-                        devices)
-  --list-devices
-			List all available output devices and exit
-  --check-delay CHECK_DELAY
-                        Delay in seconds between checking if the device is connected
-  --voicemeeter-version {1,2,3,6}
-                        Specify the Voicemeeter version to run. (1=Voicemeeter, 2=Banana, 3=Potato, 6=Potato x64)
-  --device-type {wdm,ks,mme,asio}
-                        Specify the device type (valid values: wdm, ks, mme, asio)
+
+  -h, --help         *show this help message and exit*
+  
+  --vendor-id VENDOR_ID        *Hexadecimal Vendor ID of the device*
+  
+  --product-id PRODUCT_ID        *Hexadecimal Product ID of the device*
+  
+  --connect-delay CONNECT_DELAY        *Delay in seconds before setting Voicemeeter output after connection*
+  
+  --bus-index BUS_INDEX        *The bus index to use in Voicemeeter*
+  
+  --device-name DEVICE_NAME        *The name of the device as recognized by Voicemeeter (Name from --list-devices)*
+  
+  --list-devices        *List all available output devices and exit*
+  
+  --check-delay CHECK_DELAY        *Delay in seconds between checking if the device is connected*
+  
+  --voicemeeter-version {1,2,3,6}        *Specify the Voicemeeter version to run. (1=Voicemeeter, 2=Banana, 3=Potato, 6=Potato x64)*
+  
+  --device-type {wdm,ks,mme,asio}        *Specify the device type (valid values: wdm, ks, mme, asio)*
